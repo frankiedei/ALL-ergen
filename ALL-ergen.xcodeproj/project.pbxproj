@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8D4A8B822D472A3F007CC112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D4A8B682D472A3C007CC112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D4A8B6F2D472A3C007CC112;
+			remoteInfo = "ALL-ergen";
+		};
+		8D4A8B8C2D472A3F007CC112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D4A8B682D472A3C007CC112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D4A8B6F2D472A3C007CC112;
+			remoteInfo = "ALL-ergen";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D4A8B702D472A3C007CC112 /* ALL-ergen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALL-ergen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4A8B812D472A3F007CC112 /* ALL-ergenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALL-ergenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4A8B8B2D472A3F007CC112 /* ALL-ergenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALL-ergenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8D4A8B722D472A3C007CC112 /* ALL-ergen */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ALL-ergen";
+			sourceTree = "<group>";
+		};
+		8D4A8B842D472A3F007CC112 /* ALL-ergenTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ALL-ergenTests";
+			sourceTree = "<group>";
+		};
+		8D4A8B8E2D472A3F007CC112 /* ALL-ergenUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ALL-ergenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D4A8B6D2D472A3C007CC112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4A8B7E2D472A3F007CC112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4A8B882D472A3F007CC112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D4A8B672D472A3C007CC112 = {
+			isa = PBXGroup;
+			children = (
+				8D4A8B722D472A3C007CC112 /* ALL-ergen */,
+				8D4A8B842D472A3F007CC112 /* ALL-ergenTests */,
+				8D4A8B8E2D472A3F007CC112 /* ALL-ergenUITests */,
+				8D4A8B712D472A3C007CC112 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D4A8B712D472A3C007CC112 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D4A8B702D472A3C007CC112 /* ALL-ergen.app */,
+				8D4A8B812D472A3F007CC112 /* ALL-ergenTests.xctest */,
+				8D4A8B8B2D472A3F007CC112 /* ALL-ergenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D4A8B6F2D472A3C007CC112 /* ALL-ergen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D4A8B952D472A3F007CC112 /* Build configuration list for PBXNativeTarget "ALL-ergen" */;
+			buildPhases = (
+				8D4A8B6C2D472A3C007CC112 /* Sources */,
+				8D4A8B6D2D472A3C007CC112 /* Frameworks */,
+				8D4A8B6E2D472A3C007CC112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8D4A8B722D472A3C007CC112 /* ALL-ergen */,
+			);
+			name = "ALL-ergen";
+			packageProductDependencies = (
+			);
+			productName = "ALL-ergen";
+			productReference = 8D4A8B702D472A3C007CC112 /* ALL-ergen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D4A8B802D472A3F007CC112 /* ALL-ergenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D4A8B982D472A3F007CC112 /* Build configuration list for PBXNativeTarget "ALL-ergenTests" */;
+			buildPhases = (
+				8D4A8B7D2D472A3F007CC112 /* Sources */,
+				8D4A8B7E2D472A3F007CC112 /* Frameworks */,
+				8D4A8B7F2D472A3F007CC112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D4A8B832D472A3F007CC112 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8D4A8B842D472A3F007CC112 /* ALL-ergenTests */,
+			);
+			name = "ALL-ergenTests";
+			packageProductDependencies = (
+			);
+			productName = "ALL-ergenTests";
+			productReference = 8D4A8B812D472A3F007CC112 /* ALL-ergenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D4A8B8A2D472A3F007CC112 /* ALL-ergenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D4A8B9B2D472A3F007CC112 /* Build configuration list for PBXNativeTarget "ALL-ergenUITests" */;
+			buildPhases = (
+				8D4A8B872D472A3F007CC112 /* Sources */,
+				8D4A8B882D472A3F007CC112 /* Frameworks */,
+				8D4A8B892D472A3F007CC112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D4A8B8D2D472A3F007CC112 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8D4A8B8E2D472A3F007CC112 /* ALL-ergenUITests */,
+			);
+			name = "ALL-ergenUITests";
+			packageProductDependencies = (
+			);
+			productName = "ALL-ergenUITests";
+			productReference = 8D4A8B8B2D472A3F007CC112 /* ALL-ergenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D4A8B682D472A3C007CC112 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					8D4A8B6F2D472A3C007CC112 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					8D4A8B802D472A3F007CC112 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8D4A8B6F2D472A3C007CC112;
+					};
+					8D4A8B8A2D472A3F007CC112 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8D4A8B6F2D472A3C007CC112;
+					};
+				};
+			};
+			buildConfigurationList = 8D4A8B6B2D472A3C007CC112 /* Build configuration list for PBXProject "ALL-ergen" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D4A8B672D472A3C007CC112;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8D4A8B712D472A3C007CC112 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D4A8B6F2D472A3C007CC112 /* ALL-ergen */,
+				8D4A8B802D472A3F007CC112 /* ALL-ergenTests */,
+				8D4A8B8A2D472A3F007CC112 /* ALL-ergenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D4A8B6E2D472A3C007CC112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4A8B7F2D472A3F007CC112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4A8B892D472A3F007CC112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D4A8B6C2D472A3C007CC112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4A8B7D2D472A3F007CC112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4A8B872D472A3F007CC112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D4A8B832D472A3F007CC112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D4A8B6F2D472A3C007CC112 /* ALL-ergen */;
+			targetProxy = 8D4A8B822D472A3F007CC112 /* PBXContainerItemProxy */;
+		};
+		8D4A8B8D2D472A3F007CC112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D4A8B6F2D472A3C007CC112 /* ALL-ergen */;
+			targetProxy = 8D4A8B8C2D472A3F007CC112 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D4A8B932D472A3F007CC112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D4A8B942D472A3F007CC112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8D4A8B962D472A3F007CC112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ALL-ergen/ALL_ergen.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ALL-ergen/Preview Content\"";
+				DEVELOPMENT_TEAM = 46TP5MJXT7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alpha.ALL-ergen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8D4A8B972D472A3F007CC112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ALL-ergen/ALL_ergen.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ALL-ergen/Preview Content\"";
+				DEVELOPMENT_TEAM = 46TP5MJXT7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alpha.ALL-ergen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8D4A8B992D472A3F007CC112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46TP5MJXT7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alpha.ALL-ergenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALL-ergen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ALL-ergen";
+			};
+			name = Debug;
+		};
+		8D4A8B9A2D472A3F007CC112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46TP5MJXT7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alpha.ALL-ergenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALL-ergen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ALL-ergen";
+			};
+			name = Release;
+		};
+		8D4A8B9C2D472A3F007CC112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46TP5MJXT7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alpha.ALL-ergenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ALL-ergen";
+			};
+			name = Debug;
+		};
+		8D4A8B9D2D472A3F007CC112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46TP5MJXT7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alpha.ALL-ergenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ALL-ergen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D4A8B6B2D472A3C007CC112 /* Build configuration list for PBXProject "ALL-ergen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4A8B932D472A3F007CC112 /* Debug */,
+				8D4A8B942D472A3F007CC112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D4A8B952D472A3F007CC112 /* Build configuration list for PBXNativeTarget "ALL-ergen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4A8B962D472A3F007CC112 /* Debug */,
+				8D4A8B972D472A3F007CC112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D4A8B982D472A3F007CC112 /* Build configuration list for PBXNativeTarget "ALL-ergenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4A8B992D472A3F007CC112 /* Debug */,
+				8D4A8B9A2D472A3F007CC112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D4A8B9B2D472A3F007CC112 /* Build configuration list for PBXNativeTarget "ALL-ergenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4A8B9C2D472A3F007CC112 /* Debug */,
+				8D4A8B9D2D472A3F007CC112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D4A8B682D472A3C007CC112 /* Project object */;
+}
