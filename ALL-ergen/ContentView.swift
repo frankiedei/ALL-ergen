@@ -1,3 +1,10 @@
+//
+//  ContentView.swift
+//  All-ergen
+//
+//  Created by Frankie Severino on 1/26/25.
+//
+
 import SwiftUI
 
 struct ContentView: View {
@@ -6,36 +13,56 @@ struct ContentView: View {
     @State private var isLoading: Bool = false
     
     var body: some View {
-        VStack(spacing: 20) {
-            TextField("Enter food (e.g., Apple pie)", text: $inputText)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-                .padding()
-            
-            Button(action: fetchAllergens) {
-                if isLoading {
-                    ProgressView()
-                } else {
-                    Text("Check Allergens")
-                        .fontWeight(.bold)
-                        .frame(maxWidth: .infinity)
-                        .padding()
-                        .foregroundColor(.white)
-                        .background(Color.blue)
-                        .cornerRadius(10)
-                }
-            }
-            .disabled(isLoading || inputText.isEmpty)
-            
-            ScrollView {
-                Text(resultText)
-                    .multilineTextAlignment(.center)
+        NavigationView {
+            VStack(spacing: 16) {
+                TextField("Enter food (e.g., Apple pie)", text: $inputText)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .padding(.horizontal)
+                    .autocapitalization(.none)
+                    .disableAutocorrection(true)
+                    .keyboardType(.default)
+                    .frame(maxWidth: .infinity)
+                
+                Button(action: fetchAllergens) {
+                    HStack {
+                        if isLoading {
+                            ProgressView()
+                                .progressViewStyle(CircularProgressViewStyle(tint: .white))
+                        } else {
+                            Text("Check Allergens")
+                                .fontWeight(.semibold)
+                        }
+                    }
+                    .frame(maxWidth: .infinity)
                     .padding()
-                    .foregroundColor(.gray)
+                    .background(inputText.isEmpty ? Color.gray : Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+                    .shadow(radius: 5)
+                }
+                .disabled(isLoading || inputText.isEmpty)
+                .padding(.horizontal)
+                
+                ScrollView {
+                    Text(resultText)
+                        .font(.body)
+                        .multilineTextAlignment(.leading)
+                        .padding()
+                        .foregroundColor(.gray)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                }
+                .frame(maxWidth: .infinity)
+                .background(Color(UIColor.systemGroupedBackground))
+                .cornerRadius(12)
+                .shadow(radius: 2)
+                .padding(.horizontal)
+                
+                Spacer()
             }
-            
-            Spacer()
+            .navigationTitle("ALL-ergen")
+            .navigationBarTitleDisplayMode(.inline)
+            .padding(.vertical)
         }
-        .padding()
     }
     
     private func fetchAllergens() {
@@ -44,18 +71,18 @@ struct ContentView: View {
         isLoading = true
         resultText = "Fetching allergens..."
         
-        let apiKey = "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"
+        let apiKey = "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"
         let endpoint = "https://api.openai.com/v1/chat/completions"
         
         let messages: [[String: Any]] = [
             ["role": "system", "content": "You are a helpful assistant."],
-            ["role": "user", "content": "What are the allergens in \(inputText) in list form?"]
+            ["role": "user", "content": "What are the most common allergens in \(inputText) in list form? Then list some less common allergens. Lastly append: ALL-ergen is approximate information. Please check specific recipes for more accurate results"]
         ]
         
         let body: [String: Any] = [
             "model": "gpt-4o-mini",
             "messages": messages,
-            "max_tokens": 100,
+            "max_tokens": 500,
             "temperature": 0.7
         ]
         
@@ -86,32 +113,21 @@ struct ContentView: View {
                 }
                 
                 do {
-                    if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
-                        print("Raw Response: \(json)")
-                        
-                        if let choices = json["choices"] as? [[String: Any]],
-                           let message = choices.first?["message"] as? [String: Any],
-                           let content = message["content"] as? String {
-                            resultText = content.trimmingCharacters(in: .whitespacesAndNewlines)
-                        } else {
-                            resultText = "Unexpected response format: \(json)"
-                        }
+                    if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any],
+                       let choices = json["choices"] as? [[String: Any]],
+                       let message = choices.first?["message"] as? [String: Any],
+                       let content = message["content"] as? String {
+                        resultText = content.trimmingCharacters(in: .whitespacesAndNewlines)
                     } else {
-                        resultText = "Unable to parse JSON response"
+                        resultText = "Sorry, we couldn't process the response. Please try again."
                     }
                 } catch {
-                    resultText = "Error parsing response: \(error.localizedDescription)"
+                    resultText = "Error parsing server response. Please try again later."
                 }
             }
         }.resume()
     }
-    
-    @main
-    struct MyApp: App {
-        var body: some Scene {
-            WindowGroup {
-                ContentView()
-            }
-        }
-    }
+}
+#Preview {
+    ContentView()
 }
