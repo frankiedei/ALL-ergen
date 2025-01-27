@@ -71,7 +71,7 @@ struct ContentView: View {
         isLoading = true
         resultText = "Fetching allergens..."
         
-        let apiKey = "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"
+        let apiKey = "INPUT OPENAI KEY HERE"
         let endpoint = "https://api.openai.com/v1/chat/completions"
         
         let messages: [[String: Any]] = [
