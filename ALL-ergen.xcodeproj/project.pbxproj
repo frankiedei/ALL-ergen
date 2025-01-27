@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8D4A8BA92D47321B007CC112 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8D4A8BA82D47321B007CC112 /* OpenAISwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8D4A8B822D472A3F007CC112 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +33,22 @@
 		8D4A8B8B2D472A3F007CC112 /* ALL-ergenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALL-ergenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8D4A8BAE2D473D73007CC112 /* Exceptions for "ALL-ergen" folder in "ALL-ergen" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8D4A8B6F2D472A3C007CC112 /* ALL-ergen */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8D4A8B722D472A3C007CC112 /* ALL-ergen */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8D4A8BAE2D473D73007CC112 /* Exceptions for "ALL-ergen" folder in "ALL-ergen" target */,
+			);
 			path = "ALL-ergen";
 			sourceTree = "<group>";
 		};
@@ -52,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4A8BA92D47321B007CC112 /* OpenAISwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +130,7 @@
 			);
 			name = "ALL-ergen";
 			packageProductDependencies = (
+				8D4A8BA82D47321B007CC112 /* OpenAISwift */,
 			);
 			productName = "ALL-ergen";
 			productReference = 8D4A8B702D472A3C007CC112 /* ALL-ergen.app */;
@@ -195,6 +214,9 @@
 			);
 			mainGroup = 8D4A8B672D472A3C007CC112;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8D4A8BA72D47321B007CC112 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8D4A8B712D472A3C007CC112 /* Products */;
 			projectDirPath = "";
@@ -401,6 +423,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ALL-ergen/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -428,6 +452,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ALL-ergen/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -549,6 +575,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D4A8BA72D47321B007CC112 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D4A8BA82D47321B007CC112 /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D4A8BA72D47321B007CC112 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8D4A8B682D472A3C007CC112 /* Project object */;
 }
